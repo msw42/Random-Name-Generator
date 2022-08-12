@@ -1,0 +1,47 @@
+* {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    padding: 1.5em 0.25em;
+    background: #440087;
+    font-size: 3em;
+}
+p {
+    color: #440087;
+    text-align: center;
+    padding: 2em;
+    font-size: 1.75em;
+}
+#new-name-sentence {
+    text-align: center;
+    font-size: 1.75em;
+    color: #440087;
+    padding: 2em 0 0;
+}
+#new-name {
+    color: #440087;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 3em;
+}
+#button-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 5em;
+}
+#button {
+    text-align: center;
+    background: #440087;
+    color: #fff;
+    padding: 1.5em 3em;
+    font-size: 1.25em;
+    font-weight: 400;
+}
+#button:hover {
+    background: rgba(68, 0, 135, 0.85);
+}
