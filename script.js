@@ -1,6 +1,6 @@
 let newName = document.getElementById("new-name")
 
-let adjArray = ["achy", "ageless", "authentic", "blissful", "benevolent", "benign", "bold", "brave", "bustling", "calm", "charming", "crazy", "clean", "dutiful", "dapper", "dainty", "dashing", "dazzling",
+const adjArray = ["achy", "ageless", "authentic", "blissful", "benevolent", "benign", "bold", "brave", "bustling", "calm", "charming", "crazy", "clean", "dutiful", "dapper", "dainty", "dashing", "dazzling",
 "dauntless", "eager", "earnest", "easy", "elated", "eccentric", "fair", "fabulous", "faithful", "famous", "fanciful", "factual", "gigantic", "glad", "gloomy", "glamorous", "guiltess", "gentle", 
 "hilarious", "happy", "hungry", "hysterical", "hollow", "introverted", "iconincal", "icky", "illogical", "impassioned", "implicit", "ingenious", "jovial", "jazzy", "jestful", "jumbled", "justified", 
 "kindled", "kindred", "keen", "knowledgeable", "kinlgy", "laborious", "lamentable", "lacking", "lovely", "magnetic", "masterful", "magnanimous", "merry", "magnificent", "narrow", "neat", 
@@ -8,7 +8,7 @@ let adjArray = ["achy", "ageless", "authentic", "blissful", "benevolent", "benig
 "resilient", "sleek", "sleepy", "sly", "silent", "small", "tactical", "tiresome", "tailored", "tactful", "tasteful", "ultra", "urban", "usual", "useful", "ugly", "vacant", "valiant", "vast", "variable",
 "wacky", "wishful", "wearisome", "wild", "xenial", "xenodochial", "yielding", "youthful", "yearning", "yawning", "zealous", "zestful", "zippy", "zany"]
 
-let nounArray = ["aaple", "aardvark", "avocado", "avalanche", "boat", "board", "billion", "bluff", "brawn", "code", "club", "coffee", "card", "capital", "captain", "disaster", "dawn", "dancer", 
+const nounArray = ["aaple", "aardvark", "avocado", "avalanche", "boat", "board", "billion", "bluff", "brawn", "code", "club", "coffee", "card", "capital", "captain", "disaster", "dawn", "dancer", 
 "decade", "diamond", "eagle", "elegance", "emrald", "explosion", "event", "fan", "face", "few", "figure", "frame", "function", "goal", "gamble", "goat", "gold", "guard", "hand", "home", "heart", 
 "hat", "iceberg", "image", "import", "iguana", "ibex", "jackpot", "jazz", "jeep", "jellyfish", "jester", "jubilee", "kaleidoscope", "keyboard", "kite", "keeper", "kayak", "label", "labor", "lady", "language",
 "laser", "logic", "loop", "machine", "manager", "method", "million", "museum", "nacho", "nickel", "nector", "nominee", "outcast", "opal", "ooze", "olive", "object", "plant", "platform", "point",
