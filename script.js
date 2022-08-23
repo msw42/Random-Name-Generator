@@ -16,12 +16,11 @@ let nounArray = ["aaple", "aardvark", "avocado", "avalanche", "boat", "board", "
 "view", "video", "villa", "venue", "voltage", "wildlife", "warning", "week", "weight", "wire", "x-factor", "xenon", "xylophone", "yacht", "yak", "youth", "zag", "zenith", "zeppelin", "zone", "zoo"]
 
 
-
 const generateName = () =>  {
     let adj = adjArray[Math.floor(Math.random() * 120)]
     let noun = nounArray[Math.floor(Math.random() * 120)]
     if (noun !== "code") {
-        //Gives and output of both words capitalized with a space between them
+        //Gives an output of both words capitalized with a space between them
         adj = adj.charAt(0).toUpperCase() + adj.slice(1)
         noun = noun.charAt(0).toUpperCase() + noun.slice(1)
         newName.textContent = adj +  " " + noun
@@ -30,5 +29,4 @@ const generateName = () =>  {
         noun = noun.charAt(0).toUpperCase() + noun.slice(1)
         newName.textContent = adj + noun
     }
-    
 }
